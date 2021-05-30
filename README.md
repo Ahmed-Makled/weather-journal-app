@@ -9,7 +9,7 @@ This project requires you to create an asynchronous web app that uses Web API an
 Starter code taken from udacity [repository](https://github.com/udacity/fend/tree/refresh-2019/projects/weather-journal-app).
 
 ---
-##Demo
+## Demo
  To see the Demo Click  [Here](https://weather-journal-app-0.herokuapp.com/)
 
 ## Node and Express Environemnt
