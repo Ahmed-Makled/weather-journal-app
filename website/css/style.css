@@ -1,0 +1,167 @@
+/*impor font*/
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+/* ---- Base Rules ---- */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  background-image: url("../images/bg2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* ---- Layout Rules ---- */
+
+#app {
+  text-align: center;
+  background-image: url("../images/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 50%;
+  /* height: 54rem; */
+  margin: 1% auto;
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+  padding: 1rem;
+  box-shadow: 0px 5px 15px 0px rgb(0 0 0 / 28%);
+}
+
+@media (max-width: 991px) {
+  #app {
+    margin: 0;
+    width: 100%;
+    border-radius: unset;
+    -webkit-border-radius: unset;
+    -moz-border-radius: unset;
+    -ms-border-radius: unset;
+    -o-border-radius: unset;
+  }
+}
+
+@media (min-width: 992px) {
+  #app {
+    height: 54rem !important;
+  }
+}
+
+.headline {
+  margin-bottom: 1rem;
+}
+
+.entry {
+  margin-top: 20%;
+  color: #fee8db;
+  font-size: 1.5rem;
+  letter-spacing: 0.1rem;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .entry {
+    margin-top: 15%;
+  }
+}
+
+.title {
+  background: #00000059;
+  padding: 1rem;
+  width: 100%;
+  border-top-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  margin-bottom: 5%;
+}
+
+#date,
+#temp,
+#content {
+  color: #f87f4b;
+}
+
+/*  Basic Styling To Override Default For Basic HTML Elements */
+
+label {
+  display: block;
+  font-size: 27px;
+  margin-bottom: 0.5rem;
+}
+
+input {
+  font-size: 1.5rem;
+  border: none;
+  margin-bottom: 0.5rem;
+  outline: none;
+  padding: 1rem;
+  border-top-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  border-bottom: 2px solid #fe6b3f87;
+  width: 100%;
+}
+
+.myInput {
+  font-size: 1.5rem;
+  border: none;
+  margin-bottom: 0.5rem;
+  outline: none;
+  padding: 1rem;
+  border-top-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  border-bottom: 2px solid #fe6b3f87;
+  width: 100%;
+}
+
+button {
+  background-color: #00d07e;
+  display: block;
+  text-align: center;
+  margin: auto;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  padding: 14px 20px;
+  color: #fff;
+  outline: none;
+  width: 100%;
+  font-size: 1.5rem;
+  border-top-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+
+button:hover {
+  opacity: 1;
+}
+
+@media (max-width: 320px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+}
+
+/* Footer Styles */
+
+.page__footer {
+  color: #fff;
+  text-align: center;
+}
+
+.page__footer p {
+  color: #fff;
+}
+a {
+  color: #fff;
+  text-decoration: none;
+}
+a:hover {
+  color: #ffd3ba;
+}
+@media (max-width: 991px) {
+  .page__footer p {
+    font-size: 0.9rem;
+  }
+}
