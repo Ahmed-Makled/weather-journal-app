@@ -16,7 +16,7 @@ app.use(cors());
 // Initialize the main project folder
 app.use(express.static("website"));
 // Setup Server
-const port = 5000;
+const port = process.env.PORT || 5000;
 //Spin up the server
 const server = app.listen(port, listening);
 // callback to debug
